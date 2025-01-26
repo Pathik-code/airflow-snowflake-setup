@@ -11,60 +11,20 @@ This project provides a comprehensive setup for integrating Apache Airflow with 
 ├── airflow/
 │ ├── dags/
 │ │ └──
-
-etl_pipeline.py
-
-│ ├──
-
-docker-compose.yaml
-
-│ ├── .env
-│ └──
-
-README.md
-
+│ ├──docker-compose.yaml
 ├── commodity/
-│ ├──
-
-commodity_api.py
-
-│ └──
-
-README.md
-
+│ ├──commodity_api.py
+│ └──README.md
 ├── equity/
-│ ├──
-
-equity_api.py
-
-│ ├──
-
-equity_generator.py
-
-│ └──
-
-README.md
-
+│ ├──equity_api.py
+│ ├──equity_generator.py
+│ └──README.md
 ├── mutualfund/
-│ ├──
-
-mutual_fund_upload.py
-
-│ └──
-
-README.md
-
-├──
-
-config.py
-
-├──
-
-requirements.txt
-
-└──
-
-README.md
+│ ├──mutual_fund_upload.py
+│ └──README.md
+├──config.py
+├──requirements.txt
+└──README.md
 
 ````
 
